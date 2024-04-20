@@ -31,7 +31,7 @@ $(document).ready(function () {
             url:'/fetch-max-id',
             success: function(res){
                 let id=0;
-                if(res.length==0){
+                if(res.length==1){
                     id = 1;
                 }else{
                     id = res;
